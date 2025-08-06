@@ -1,0 +1,20 @@
+// let str = 'entertainment';
+
+// for(char of str) {
+
+//   if(str.lastIndexOf(char) == str.lastIndexOf(char))
+//     {
+//     console.log(char);
+//     break;
+//   }
+
+// }
+
+
+    let str = 'rain in spAin mainly stays in the plain';
+    // match(REGEX)
+    console.log(str.match(/ain/));
+    console.log(str.match(/ain/gi));
+
+    // let str2 = 'Ashok and Sahith are 2 friends, ashok is 23 and sahith is 24';
+    // console.log(str2.match(/[0-9]{1,2}/g));
